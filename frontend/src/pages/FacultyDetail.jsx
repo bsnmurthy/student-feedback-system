@@ -175,7 +175,7 @@ onClick={() => {
 
 const url =
 
-`https://student-feedback-api-lsg5.onrender.com//api/report/faculty/${faculty_id}`;
+`https://student-feedback-api-lsg5.onrender.com/api/report/faculty/${faculty_id}`;
 
 window.open(
 url,
