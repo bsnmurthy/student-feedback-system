@@ -1,0 +1,1 @@
+"postgresql://postgres.anjmeztnownigdzuyiex:[YOUR-PASSWORD]@aws-1-ap-southeast-1.pooler.supabase.com:5432/postgres"
