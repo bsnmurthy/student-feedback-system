@@ -13,7 +13,21 @@ express();
 
 // Middleware
 
-app.use(cors());
+app.use(cors({
+
+origin:[
+
+"http://localhost:5173",
+
+"https://student-feedback-system-alpha.vercel.app"
+
+],
+
+credentials:true
+
+}));
+
+
 
 app.use(express.json());
 
