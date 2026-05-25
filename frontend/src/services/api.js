@@ -4,7 +4,7 @@ const API =
 axios.create({
 
 baseURL:
-"https://student-feedback-api.onrender.com/api",
+"https://student-feedback-api-lsg5.onrender.com/api",
 });
 
 export default API;
