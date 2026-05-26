@@ -244,8 +244,7 @@ await API.post(
 student_id:
 student.id,
 
-academic_year:
-"2026-27",
+academic_year:student.academic_year,
 
 semester_no:
 Number(

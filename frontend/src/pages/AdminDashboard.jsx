@@ -87,16 +87,16 @@ useState("");
         "",
 
       student_year:
-        "",
+        "3",
 
       semester_no:
-        "",
+        "1",
 
       branch:
-        "",
+        "CSE",
 
       section:
-        ""
+        "A"
     });
 
 
