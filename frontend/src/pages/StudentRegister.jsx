@@ -284,39 +284,57 @@ required
 
 </div>
 
+
+
 {/* Academic Year */}
 
 <div className="col-md-6">
+  <label>
+    Academic Year
+  </label>
 
-<label>
+  <select
+    name="academic_year"
+    className="form-control"
+    value={formData.academic_year}
+    onChange={handleChange}
+    required
+  >
+    <option value="">
+      Select Academic Year
+    </option>
 
-Academic Year
+ <option value="2026-27">
+      2023-24
+    </option>
 
-</label>
+ <option value="2026-27">
+      2024-25
+    </option>
 
-<input
-type="text"
+ <option value="2026-27">
+      2025-26
+    </option>
 
-name="academic_year"
+    <option value="2026-27">
+      2026-27
+    </option>
 
-className=
-"form-control"
+    <option value="2027-28">
+      2027-28
+    </option>
 
-placeholder=
-"Ex: 2026-27"
+    <option value="2028-29">
+      2028-29
+    </option>
 
-value={
-formData.academic_year
-}
-
-onChange={
-handleChange
-}
-
-required
-/>
-
+    <option value="2029-30">
+      2029-30
+    </option>
+  </select>
 </div>
+
+
 
 {/* Year */}
 
