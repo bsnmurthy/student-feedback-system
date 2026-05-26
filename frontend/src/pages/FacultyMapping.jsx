@@ -310,38 +310,58 @@ item.subject_name
 </div>
 
 
-
 <div className="col-md-2">
 
 <label>
 Academic Year
 </label>
 
-<input
-type="text"
+<select
+className="form-select"
 
-className=
-"form-control"
-
-value={
-formData.academic_year
-}
+value={formData.academic_year}
 
 onChange={(e)=>
 
 setFormData({
-
 ...formData,
-
-academic_year:
-e.target.value
+academic_year:e.target.value
 })
 }
-/>
+>
 
+<option value="">
+Select
+</option>
+
+<option value="2026-27">
+2024-25
+</option>
+
+<option value="2026-27">
+2025-26
+</option>
+
+<option value="2026-27">
+2026-27
+</option>
+
+<option value="2027-28">
+2027-28
+</option>
+
+<option value="2028-29">
+2028-29
+</option>
+
+<option value="2029-30">
+2029-30
+</option>
+
+</select>
 </div>
 
-
+	
 
 <div className="col-md-1">
 
