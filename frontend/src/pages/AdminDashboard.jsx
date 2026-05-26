@@ -525,7 +525,15 @@ e.target.value
 >
 
 <option>
-CSE
+CE
+</option>
+
+<option>
+EEE
+</option>
+
+<option>
+ME
 </option>
 
 <option>
@@ -533,7 +541,19 @@ ECE
 </option>
 
 <option>
-EEE
+CSE
+</option>
+
+<option>
+AI&DS
+</option>
+
+<option>
+AIML
+</option>
+
+<option>
+CSM
 </option>
 
 </select>
