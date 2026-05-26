@@ -373,7 +373,7 @@ page==="dashboard"
 <div className="col-md-2">
 
 <label>
-AY
+Academic Year
 </label>
 
 <select
@@ -397,12 +397,29 @@ e.target.value
 >
 
 <option>
-2026-27
+2024-25
 </option>
 
 <option>
 2025-26
 </option>
+
+<option>
+2026-27
+</option>
+
+<option>
+2027-28
+</option>
+
+<option>
+2028-29
+</option>
+
+<option>
+2029-30
+</option>
+
 
 </select>
 
