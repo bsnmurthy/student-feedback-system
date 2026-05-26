@@ -496,16 +496,36 @@ required
 Select Branch
 </option>
 
-<option value="CSE">
-CSE
+<option value="CE">
+CE
+</option>
+
+<option value="EEE">
+EEE
+</option>
+
+<option value="ME">
+ME
 </option>
 
 <option value="ECE">
 ECE
 </option>
 
-<option value="EEE">
-EEE
+<option value="CSE">
+CSE
+</option>
+
+<option value="AI&DS">
+AI&DS
+</option>
+
+<option value="AIML">
+AIML
+</option>
+
+<option value="CSM">
+CSM
 </option>
 
 </select>
