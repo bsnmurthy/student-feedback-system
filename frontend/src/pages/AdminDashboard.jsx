@@ -84,19 +84,19 @@ useState("");
     useState({
 
       academic_year:
-        "2026-27",
+        "",
 
       student_year:
-        "3",
+        "",
 
       semester_no:
-        "1",
+        "",
 
       branch:
-        "CSE",
+        "",
 
       section:
-        "B"
+        ""
     });
 
 
